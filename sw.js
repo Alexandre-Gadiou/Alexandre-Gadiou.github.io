@@ -33,7 +33,7 @@ self.__precacheManifest = [
     "url": "commons.87697ab172615e30de88.css"
   },
   {
-    "url": "commons-61bfdc48877868d92d7d.js"
+    "url": "commons-9f04792e28a887bd30b8.js"
   },
   {
     "url": "app-66830a1fba2e044c572f.js"
@@ -43,7 +43,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e7920b28afc8b8509d002898c0f0c775"
+    "revision": "18c9ae30ad18d8a2005bf7768cea1128"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
