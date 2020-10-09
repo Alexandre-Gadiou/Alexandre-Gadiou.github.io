@@ -52,11 +52,11 @@ const routes = [
         component: _pages_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__["HomePageComponent"]
     },
     {
-        path: 'app-mes-pays/country/:code',
+        path: 'country/:code',
         component: _components_country_details_country_details_component__WEBPACK_IMPORTED_MODULE_3__["CountryDetailsComponent"]
     },
     {
-        path: 'app-mes-pays/**',
+        path: '**',
         component: _pages_not_found_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_4__["NotFoundPageComponent"]
     }
 ];
