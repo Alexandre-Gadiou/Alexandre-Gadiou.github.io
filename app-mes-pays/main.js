@@ -48,15 +48,15 @@ __webpack_require__.r(__webpack_exports__);
 // routes
 const routes = [
     {
-        path: '',
+        path: 'app-mes-pays',
         component: _pages_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__["HomePageComponent"]
     },
     {
-        path: 'country/:code',
+        path: 'app-mes-pays/country/:code',
         component: _components_country_details_country_details_component__WEBPACK_IMPORTED_MODULE_3__["CountryDetailsComponent"]
     },
     {
-        path: '**',
+        path: 'app-mes-pays/**',
         component: _pages_not_found_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_4__["NotFoundPageComponent"]
     }
 ];
