@@ -1,0 +1,27 @@
+.page-content {
+    padding-top: 5rem;
+}
+
+.card {
+    h3 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 1.3rem;
+    }
+     .card-text {
+         ul {
+             text-align: left;
+         }
+     }   
+}
+
+
+.progress {
+    .progress-bar {
+        background-color: $blue1;
+
+        &.current-exp-progress-bar {
+            background-color: $green1;
+        }
+    }
+}

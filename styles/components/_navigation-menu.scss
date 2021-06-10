@@ -1,0 +1,25 @@
+.navbar {
+    $link-color: rgba(255, 255, 255, 0.5);
+    $link-active-color:rgba(255, 255, 255, 1);
+    background-color: $blue2;
+    .navbar-nav {
+
+        .nav-item{
+            &.active {
+                .nav-link {
+                    color:$link-active-color;
+                }
+            }
+
+            .nav-link {
+                color:$link-color;
+                &:hover,&:focus {
+                    color: $link-active-color;
+                }
+            }
+        }
+        
+        
+        
+    }
+}

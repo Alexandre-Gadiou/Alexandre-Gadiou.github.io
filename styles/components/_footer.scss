@@ -1,0 +1,50 @@
+footer {
+    padding: 2rem 0;
+    background-color: $blue2;
+    color: $white;
+    text-align: left;
+
+    .contact-infos {
+        margin: auto;
+        width: 280px;
+        @include media-breakpoint-down(sm) {
+            width:100%;
+            text-align: center;
+        }
+        .address, .phone {
+            .fa {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+    
+}
+
+.social-links {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+    @include media-breakpoint-down(sm) {
+        padding-top:0.5rem;
+    }
+
+     li {
+         display: inline-block;
+         padding: 0 0.5rem;
+         a {
+                color: $white;
+                width: 2.5rem;
+                height: 2.5rem;
+                padding: 0.625rem;
+                @extend .rounded-circle;
+                border:1px solid $white;
+
+                &:hover,&:focus {
+                    text-decoration: none;
+                }
+             
+            
+         }
+     }
+}

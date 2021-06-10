@@ -1,0 +1,15 @@
+.article {
+    .title {
+        a {
+            color:$blue2;
+        }
+        @include media-breakpoint-down(sm) {
+            margin-top:2rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.article + .article {
+    margin-top:3rem;
+}

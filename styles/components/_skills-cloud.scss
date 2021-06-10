@@ -1,0 +1,8 @@
+.word-cloud{
+    svg {
+        @include media-breakpoint-down(sm) {
+            zoom:40%;
+            margin-top: 1rem;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap.scss";
+$fa-font-path: "~font-awesome-sass/assets/fonts/font-awesome/";
+@import "~font-awesome-sass/assets/stylesheets/_font-awesome.scss";
+
+$blue1: #3682AC;
+$blue2:#2C3E50;
+$green1: #36ac46;
+$black1:#1a252f;
+
+$white:#FFFFFF;
+
+$navbar-bg:$blue2;
+$presentation-bg:$blue1;
+$presentation-text-color:$white;
+$section-title-color:$blue2;
+
+.bodywrapper {
+
+    @import "skeleton.scss";
+    @import "typo.scss";
+    @import "components/all.scss";
+    @import "sections/all.scss";
+
+}
+
